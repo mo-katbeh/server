@@ -4,7 +4,7 @@ import * as trpcExpress from '@trpc/server/adapters/express';
 import { appRouter } from './trpc/routers/mainRouter';
 import { createContext } from './context';
 import './db/kysely/client'
-import './db/kysely/queries/watchlist'
+// import './db/kysely/queries/watchlist'
 
 // console.log("Imported appRouter:", appRouter);
 
